@@ -28,7 +28,7 @@ $teams = json_decode($teams);
 </head>
 <body>
 <nav class="navbar navbar-default">
-  <a class="navbar-brand" href="#">NBA Scores</a>
+  <a class="navbar-brand" href="https://github.com/danny3b/nba_scores">NBA Scores</a>
   </nav>
 <div class="container"><div class="col-md-6 col-md-offset-3">
 <form action="<?=$_SERVER['REQUEST_URI'] ?>" method="post">
