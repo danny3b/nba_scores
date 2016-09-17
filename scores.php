@@ -105,7 +105,7 @@ function in_multidimensional_array($elem, $array, $field) {
         return true;
         else 
         if (is_array($array[$bottom][$field])) 
-        if (in_multiarray($elem, ($array[$bottom][$field]))) 
+        if (in_multidimensional_array($elem, ($array[$bottom][$field]))) 
         return true;
         $bottom++;
     }
